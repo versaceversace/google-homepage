@@ -1,0 +1,84 @@
+body {
+		font-size: small;
+		font-family: arial, sans-serif;
+}
+a { 
+		text-decoration: none;
+}
+a:hover {
+		text-decoration: underline;
+}
+	/* a = negro, a:hover = gris oscuro */
+a:link, a:visited {
+color: black;
+}
+#bottombar a:link, #bottombar a:visited; {
+	color: #666;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: right;
+	display: block;
+	padding: 0 0 0 18px;
+}
+#topbar ul li:first-child {
+	margin-top: -10px;
+}
+#container {
+	margin: 10 0 0 0 auto;
+	text-align: center;
+}
+#topbar {
+	margin: 25px 40px 0 0;
+	height: 100px;
+}
+
+#logo {
+	margin: auto;
+	width: 35em;
+}
+#searchbar {
+	margin: auto;
+	padding-top: 15px;
+}
+input {
+	height: 30px;
+	width: 40em;
+}
+#searchoptions {
+	margin-top: 10px;
+}
+.button {
+	background-color: #f1f1f1;
+	font: bold 11px/27px arial, sans-serif!important;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	padding: 3px 4px 3px 4px;
+	margin: 5px;
+	display: inline-block;
+}
+.button:hover, .searchbar:hover {
+	border: 2px solid #dcdcdc;
+}
+#bottombar { 
+	background-color: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	height: 41px;
+	clear: both;
+	position: relative;
+	margin-top: 180px;
+}
+#bottombar ul {
+	margin-left: 27px;
+	margin-top: 5px;
+}
+#bottomleft {
+	float: left;
+}
+#bottomright {
+	float: right;
+}
+
+
